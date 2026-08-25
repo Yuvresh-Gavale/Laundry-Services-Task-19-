@@ -1,6 +1,6 @@
 # Laundry-Services-Task-19-
 
-html file: 
+html file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main/index.html
 <br>
 css file: 
 <br>
