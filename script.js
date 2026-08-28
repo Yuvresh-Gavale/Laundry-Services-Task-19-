@@ -89,19 +89,27 @@ function updateCart() {
           (item, index) => `
             <li>
             <span>
-              ${index + 1}. ${item.name} - ₹${item.name}
+              ${index + 1}. ${item.name} - ₹${item.price}
             </span>
 
-            <strong>
-              ₹${item.price}
-            </strong>
+            <button class="remove-btn" data-index="${index}">
+            Remove
+            </button>
             </li>
           `
         )
         .join("")}
     </ul>
   `;
-
+// Remove item from cart
+const removeButtons = document.querySelectorAll(".remove-btn");
+removeButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const index=button.getAttribute("data-index");
+    cart.splice(index, 1);
+    updateCart();
+  });
+});
   //calculate total amount
   const total = cart.reduce((sum, item) => {
     return sum + item.price;
@@ -112,5 +120,31 @@ function updateCart() {
 }
 // Initial cart message
 updateCart();
+
+// Booking form
+const bookingForm = document.querySelector("#booking-form");
+bookingForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const name = document.querySelector("#name").ariaValueMax.trim();
+  const email = document.querySelector("#email").value.trim();
+  const password = document.querySelector("#password").value.trim();
+  const contact = document.querySelector("#contact").value.trim();
+
+  // Form validation
+  if (name === "" || email === "" || password === ""|| contact === "") {
+    alert("Please fill all the fields.");
+    return;
+  }
+
+  if (cart.length === 0) {
+    alert("Please add at least one service.");
+    return;
+  }
+
+  alert("Booking submitted successfully!");
+
+  bookingForm.reset();
+});
 
 
