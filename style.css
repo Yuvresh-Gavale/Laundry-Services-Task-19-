@@ -289,6 +289,7 @@ button:hover {
 /* Form spacing */
 .name-box,
 .email-box,
+.password-box,
 .contact-box {
   margin-top: 20px;
 }
@@ -296,6 +297,7 @@ button:hover {
 /* Labels */
 .name-box label,
 .email-box label,
+.password-box,
 .contact-box label {
   display: block;
   margin-bottom: 8px;
@@ -306,6 +308,7 @@ button:hover {
 /* Inputs */
 .name-box input,
 .email-box input,
+.password-box input,
 .contact-box input {
   width: 100%;
   padding: 13px;
@@ -320,6 +323,7 @@ button:hover {
 /* Input focus */
 .name-box input:focus,
 .email-box input:focus,
+.password-box:focus,
 .contact-box input:focus {
   border-color: #0088ff;
   box-shadow: 0 0 0 3px rgba(0, 136, 255, 0.12);
