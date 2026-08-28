@@ -11,7 +11,7 @@ git clone: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/edit/main
 cd <project-folder>
 
 # Deployed Link
-Link: https://laundry-servicestask19.netlify.app/
+Link: https://laundaryservices19new.netlify.app/
 
 # Run the project
 <br>
