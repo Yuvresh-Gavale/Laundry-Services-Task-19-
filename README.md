@@ -1,10 +1,10 @@
 # Laundry-Services-Task-19-
 
-html file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main/index.html
+html file: 
 <br>
-css file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main/style.css
+css file: 
 <br>
-js file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main/script.js
+js file: 
 # Clone the repo
 git clone: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/edit/main/README.md
 <br>
