@@ -4,7 +4,7 @@ html file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main
 <br>
 css file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main/style.css
 <br>
-js file: 
+js file: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/blob/main/script.js
 # Clone the repo
 git clone: https://github.com/Yuvresh-Gavale/Laundry-Services-Task-19-/edit/main/README.md
 <br>
