@@ -41,6 +41,9 @@
 
           <div class="box-bottom">
             <h4>Book Now</h4>
+
+            <form id="booking-form">
+
             <div class="name-box">
               <label for="name">Full Name:</label>
               <br />
@@ -50,18 +53,32 @@
             <div class="email-box">
               <label for="email">Email ID:</label>
               <br />
-              <input type="text" placeholder="john.doe@example.com" />
+              <input type="email" id="email" placeholder="john.doe@example.com" />
             </div>
+
+            <!-- Password Field Added -->
+             <div class="password-box">
+              <label for="password">Password:</label>
+              <br />
+
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password" />
+             </div>
 
             <div class="contact-box">
               <label for="contact">Contact No.:</label>
               <br />
-              <input type="text" placeholder="123-456-7890" />
+              <input type="tel" 
+              id="contact"
+              placeholder="123-456-7890" />
             </div>
 
             <div class="booknow">
-              <button>Book Now</button>
+              <button type="submit">Book Now</button>
             </div>
+          </form>
 
             <div class="total-amount">
               <h4>Total Amount: ₹0</h4>
